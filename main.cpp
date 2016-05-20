@@ -430,7 +430,7 @@ void TEST(List* s, Node* n1,Node* n2,Node* n3,Node* n4,Node* n5){
     cout << sito->first->value << " - first" << endl; // pokazuje ze lista wie gdzie first i last przy push
     cout << sito->last->value << " - last" << endl;
     cout << "--------------- END TEST --------------------------" << endl;
-
+    delete sito;
     cout << "\nDziekuje za uwage :) " << endl;
 }
 
