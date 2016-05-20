@@ -50,7 +50,8 @@ int main()
     my_node5 = node(5);
 
     TEST(lista,my_node1,my_node2,my_node3,my_node4,my_node5);
-
+    
+    delete lista;
     delete my_node1;
     delete my_node2;
     delete my_node3;
